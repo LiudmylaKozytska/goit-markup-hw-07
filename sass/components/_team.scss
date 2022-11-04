@@ -1,0 +1,66 @@
+/* команда */
+
+.team__section {
+    background-color: var(--button-background-color);
+}
+
+.team__list {
+    justify-content: space-between;
+}
+
+.team__item {
+    background-color: $color-white;
+    width: 270px;
+    box-shadow: var(--modal-shadow);
+    border-radius: 4px;
+}
+
+.team__excerpt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.team__header {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-title);
+}
+
+.team__text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.team__soc-list {
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.team__soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms var(--animation-timing-function);
+}
+
+.team__soc-link:hover,
+.team__soc-link:focus {
+    background-color: var(--color-decoration);
+}
+
+.team__soc-icon {
+    fill: var(--color-icon);
+    transition: fill 250ms var(--animation-timing-function);
+}
+
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
+    fill: $color-white;
+}

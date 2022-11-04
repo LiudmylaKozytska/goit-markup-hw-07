@@ -1,0 +1,20 @@
+/* Переваги */
+
+.advantage__list {
+    gap: 30px;
+}
+
+.advantage__icon--background {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--button-background-color);
+}
+
+.advantage__title {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--color-title);
+}

@@ -1,0 +1,37 @@
+/* шапка */
+
+.hero__section {
+    background-color: var(--footer-background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+    max-width: 1600px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero__title {
+    width: 696px;
+    margin: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+.hero__button {
+    width: 216px;
+    height: 50px;
+}
