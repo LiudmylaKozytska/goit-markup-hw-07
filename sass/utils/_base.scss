@@ -1,11 +1,11 @@
 /* глобальні стилі */
 
 body {
-    font-family: 'Roboto';
+    font-family: $text-font;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    color: var(--color-text);
+    color: $color-text;
 }
 
 ul {

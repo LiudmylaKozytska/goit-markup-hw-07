@@ -1,0 +1,35 @@
+%logo {
+    text-decoration: none;
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+}
+
+@mixin logo_color ($color) {
+    color: $color;
+}
+
+.header__logo {
+    @extend %logo;
+    margin-right: 93px;
+    padding: 24px 0;
+    @include logo_color ($color-accent);
+
+    &--color {
+        color: $color-black;
+    }
+
+}
+
+.footer__logo {
+    @extend %logo;
+    display: block;
+    margin-bottom: 20px;
+    @include logo_color ($color-accent);
+
+    &--color {
+        color: $color-white;
+    }
+
+}

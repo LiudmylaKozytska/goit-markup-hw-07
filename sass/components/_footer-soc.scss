@@ -1,0 +1,38 @@
+.footer-soc {
+    margin-left: 93px;
+}
+
+.footer__text {
+    font-size: inherit;
+    line-height: 1.1428;
+    text-align: left;
+    color: $color-white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-soc__list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-soc__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms $animation-timing-function;
+
+    &:hover,
+    &:focus {
+        background-color: $color-accent;
+    }
+
+}
+
+.footer__icon {
+    fill: $color-white;
+}

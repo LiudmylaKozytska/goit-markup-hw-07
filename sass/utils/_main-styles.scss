@@ -1,0 +1,61 @@
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.flex-list {
+    display: flex;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+%btn {
+    border: none;
+    cursor: pointer;
+}
+
+%button {
+    background-color: $color-accent;
+    box-shadow: $main-button-shadow;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: $color-white;
+    transition: background-color 250ms $animation-timing-function;
+}
+
+.button:hover,
+.button:focus {
+    @extend %button;
+    @extend %btn;
+    background-color: $color-button-active;
+
+}
+
+.link {
+    text-decoration: none;
+    transition: color 250ms $animation-timing-function;
+}
+
+.link:hover,
+.link:focus {
+    color: $color-accent;
+}
+
+.secondary-title {
+    margin: 0 0 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $color-title;
+}

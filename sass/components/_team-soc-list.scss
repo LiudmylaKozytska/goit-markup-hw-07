@@ -1,0 +1,31 @@
+.team__soc-list {
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.team__soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms $animation-timing-function;
+
+    &:hover,
+    &:focus {
+        background-color: $color-accent;
+    }
+
+}
+
+.team__soc-icon {
+    fill: $color-icon;
+    transition: fill 250ms $animation-timing-function;
+}
+
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
+    fill: $color-white;
+}

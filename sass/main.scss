@@ -1,13 +1,23 @@
-@import 'utils/utils';
 @import 'utils/variables';
+@import 'utils/main-styles';
+@import 'utils/utils';
 @import 'utils/base';
 @import 'components/header';
+@import 'components/logo';
+@import 'components/nav';
 @import 'components/hero';
 @import 'components/advantage';
 @import 'components/service';
 @import 'components/team';
+@import 'components/team-soc-list';
 @import 'components/customer';
 @import 'components/footer'; 
+@import 'components/footer-soc';
+@import 'components/footer-form';
 @import 'components/modal';
+@import 'components/modal-form';
+@import 'components/modal-checkbox';
+@import 'components/portfolio-buttons';
 @import 'components/portfolio';
+@import 'components/portfolio-overlay';
 

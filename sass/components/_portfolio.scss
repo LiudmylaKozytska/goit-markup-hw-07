@@ -1,35 +1,5 @@
 /* портфоліо */
 
-.portfolio__menu {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.portfolio__button {
-    padding: 6px 22px;
-    font-family: inherit;
-    background-color: var(--button-background-color);
-    color: var(--color-title);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    border-radius: 4px;
-    letter-spacing: inherit;
-
-    transition: background-color 250ms var(--animation-timing-function), color 250ms var(--animation-timing-function);
-}
-
-.portfolio__button:hover,
-.portfolio__button:focus {
-    background-color: var(--color-decoration);
-    color: $color-white;
-    box-shadow: var(--portfolio-button-shadow);
-    border-radius: 4px;
-
-}
-
 .portfolio__list {
     flex-wrap: wrap;
     gap: 30px;
@@ -38,37 +8,13 @@
 .portfolio__link {
     text-decoration: none;
     display: block;
-}
 
-.portfolio__link:hover,
-.portfolio__link:focus {
-    box-shadow: var(--project-list-shadow);
-    transition: box-shadow 250ms var(--animation-timing-function);
-}
+    &:hover,
+    &:focus {
+        box-shadow: $project-list-shadow;
+        transition: box-shadow 250ms $animation-timing-function;
+    }
 
-.portfolio__overlay {
-    position: relative;
-    overflow: hidden;
-}
-
-.portfolio__link:hover .portfolio__text--overlay,
-.portfolio__link:focus .portfolio__text--overlay {
-    transform: translateY(0);
-}
-
-.portfolio__text--overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
-    transition: transform 250ms var(--animation-timing-function);
-
-    padding: 63px 24px;
-    font-size: 18px;
-    line-height: 1.5555;
-    color: $color-white;
 }
 
 .portfolio__desc {
@@ -84,7 +30,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--color-title);
+    color: $color-title;
 }
 
 .portfolio__text {
@@ -92,5 +38,5 @@
     text-align: left;
     font-size: 16px;
     line-height: 1.875;
-    color: var(--color-text);
+    color: $color-text;
 }

@@ -8,7 +8,7 @@
     padding: 25px 100px;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-color: var(--button-background-color);
+    background-color: $button-background-color;
 }
 
 .advantage__title {
@@ -16,5 +16,5 @@
     font-size: 14px;
     line-height: 1.15;
     text-transform: uppercase;
-    color: var(--color-title);
+    color: $color-title;
 }
