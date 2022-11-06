@@ -6,7 +6,7 @@
 }
 
 .portfolio__link {
-    text-decoration: none;
+    @extend %link;
     display: block;
 
     &:hover,

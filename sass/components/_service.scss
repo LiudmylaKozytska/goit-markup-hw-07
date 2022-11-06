@@ -4,6 +4,7 @@
 }
 
 .service__list {
+    @extend %link;
     justify-content: space-between;
 }
 

@@ -5,6 +5,7 @@
 }
 
 .team__soc-link {
+    @extend %link;
     display: flex;
     justify-content: center;
     align-items: center;

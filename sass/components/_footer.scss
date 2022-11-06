@@ -17,11 +17,13 @@
 }
 
 .footer__address {
+    @extend %link;
     color: $color-white;
     font-style: normal;
 }
 
 .footer__contacts {
+    @extend %link;
     color: $contacts-text-color;
     font-style: normal;
 }
